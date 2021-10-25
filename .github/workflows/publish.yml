@@ -22,9 +22,6 @@ jobs:
     - name: Install NPM packages
       run: npm ci
     
-    - name: Set home page
-      run: export PUBLIC_URL=https://mister-giga.github.io/sound-generator 
-    
     - name: Build project
       run: npm run build
 
